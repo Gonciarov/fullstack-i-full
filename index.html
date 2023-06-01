@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Airbnb Clone</title>
+    <link rel="stylesheet" href="style.css">
+     </head>
+  <body>
+    <header>
+      <!-- Airbnb header section -->
+    </header>
+    <div class="navs">
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="index.html"><img src="airbnb.png" width="120px"></img></a>
+        <div class="navbar__menu">
+          <a href="#" class="navbar__menu__item">ANYWHERE</a>
+          <a href="#" class="navbar__menu__item">ANY WEEK</a>
+          <a href="#" class="navbar__menu__item">Airbnb your home</a>
+          <div id="nav-right">
+            <div class="navbar__menu__dropdown">
+              <button onclick="toggleDropDownMenu()" id="navbar__menu__dropbtn" class="navbar__menu__dropbtn">Menu ▾</button>
+              <div id="navbar__menu__dropdown-content" class="navbar__menu__dropdown-content">
+                <a href="#">Host your home</a>
+                <a href="#">Host an experience</a>
+                <a href="#">Help</a>
+                <a href="#">Sign up</a>
+                <a href="#">Log in</a>
+              </div>
+            </div>
+            <button id="signup-btn" class="navbar__menu__button">Sign up</button>
+          </div>
+          <i class="navbar__menu__icon fa fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+    <div class="navbar-narrow">
+      <div class="horizontal-bar">
+        <div class="left-group">
+          <img src="magnif.jpeg" class="icon magnifier"></img>
+          <div class="item">Anytime</div>
+          <div class="item">Any week</div>
+          <div class="item">Add guests</div>
+        </div>
+        <div class="right-group">
+          <img src="filters-icon.jpeg" class="icon filters"></img>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+  <div class="nav-second-row">
+    <div class="scroll-container">
+      <button class="scroll-button scroll-left">&lt;</button>
+      <div class="scroll-items">
+        <ul>
+          <li class="property-type">
+            <img src="house.png" alt="Beachfront">
+            <span>Beachfront</span>
+          </li>
+          <li>
+            <img src="house.png" alt="Amazing views">
+            <span>Views</span>
+          </li>
+          <li>
+            <img src="house.png" alt="Cabins">
+            <span>Cabins</span>
+          </li>
+          <li>
+            <img src="house.png" alt="Lake">
+            <span>Lake</span>
+          </li>
+          <li>
+            <img src="house.png" alt="Golfing">
+            <span>Golfing</span>
+          </li>
+          <li>
+            <img src="house.png" alt="Mansions">
+            <span>Mansions</span>
+          </li>
+          <li>
+            <img src="house.png" alt="Luxe">
+            <span>Luxe</span>
+          </li>
+          <li>
+            <img src="house.png" alt="Shepherd's huts">
+            <span>Huts</span>
+          </li>
+          <li>
+            <img src="house.png" alt="OMG!">
+            <span>OMG!</span>
+          </li>
+          <li>
+            <img src="house.png" alt="Boats">
+            <span>Boats</span>
+          </li>
+          <li>
+            <img src="house.png" alt="Barn">
+            <span>Barn</span>
+          </li>
+          <li class="property-type">
+            <img src="house.png" alt="Beachfront">
+            <span>Beachfront</span>
+          </li>
+          <li>
+            <img src="house.png" alt="Amazing views">
+            <span>Views</span>
+          </li>
+          <li>
+            <img src="house.png" alt="Cabins">
+            <span>Cabins</span>
+          </li>
+          <li>
+            <img src="house.png" alt="Lake">
+            <span>Lake</span>
+          </li>
+          <li>
+            <img src="house.png" alt="Golfing">
+            <span>Golfing</span>
+          </li>
+          <li>
+            <img src="house.png" alt="Mansions">
+            <span>Mansions</span>
+          </li>
+          <li>
+            <img src="house.png" alt="Luxe">
+            <span>Luxe</span>
+          </li>
+          <li>
+            <img src="house.png" alt="Shepherd's huts">
+            <span>Huts</span>
+          </li>
+          <li>
+            <img src="house.png" alt="OMG!">
+            <span>OMG!</span>
+          </li>
+          <li>
+            <img src="house.png" alt="Boats">
+            <span>Boats</span>
+          </li>
+          <li>
+            <img src="house.png" alt="Barn">
+            <span>Barn</span>
+          </li>
+        </ul>
+      </div>
+      <button class="scroll-button scroll-right">&gt;</button>
+    </div>
+  
+    <button class="filters-button">
+      <span class="filters-icon"></span>
+      Filters
+    </button>
+   
+  </div>
+    
+    
+  <div class="property-listings">
+  <a href="1.html" class="property">
+    <img src="property.jpeg" alt="Property Image">
+    <div class="property-details">
+      <h2>Property Title 1</h2>
+      <p>Property Location 1</p>
+      <p>Price per night 1</p>
+    </div>
+  </a>
+  <a href="1.html" class="property">
+    <img src="property.jpeg" alt="Property Image">
+    <div class="property-details">
+      <h2>Property Title 2</h2>
+      <p>Property Location 2</p>
+      <p>Price per night 2</p>
+    </div>
+  </a>
+  <a href="1.html" class="property">
+    <img src="property.jpeg" alt="Property Image">
+    <div class="property-details">
+      <h2>Property Title 3</h2>
+      <p>Property Location 3</p>
+      <p>Price per night 3</p>
+    </div>
+  </a>
+  <a href="1.html" class="property">
+    <img src="property.jpeg" alt="Property Image">
+    <div class="property-details">
+      <h2>Property Title 1</h2>
+      <p>Property Location 1</p>
+      <p>Price per night 1</p>
+    </div>
+  </a>
+  <a href="1.html" class="property">
+    <img src="property.jpeg" alt="Property Image">
+    <div class="property-details">
+      <h2>Property Title 2</h2>
+      <p>Property Location 2</p>
+      <p>Price per night 2</p>
+    </div>
+  </a>
+  <a href="1.html" class="property">
+    <img src="property.jpeg" alt="Property Image">
+    <div class="property-details">
+      <h2>Property Title 3</h2>
+      <p>Property Location 3</p>
+      <p>Price per night 3</p>
+    </div>
+  </a>
+  <a href="1.html" class="property">
+    <img src="property.jpeg" alt="Property Image">
+    <div class="property-details">
+      <h2>Property Title 1</h2>
+      <p>Property Location 1</p>
+      <p>Price per night 1</p>
+    </div>
+  </a>
+  <a href="1.html" class="property">
+    <img src="property.jpeg" alt="Property Image">
+    <div class="property-details">
+      <h2>Property Title 2</h2>
+      <p>Property Location 2</p>
+      <p>Price per night 2</p>
+    </div>
+  </a>
+  <a href="1.html" class="property">
+    <img src="property.jpeg" alt="Property Image">
+    <div class="property-details">
+      <h2>Property Title 3</h2>
+      <p>Property Location 3</p>
+      <p>Price per night 3</p>
+    </div>
+  </a>
+  <a href="1.html" class="property">
+    <img src="property.jpeg" alt="Property Image">
+    <div class="property-details">
+      <h2>Property Title 1</h2>
+      <p>Property Location 1</p>
+      <p>Price per night 1</p>
+    </div>
+  </a>
+  <a href="1.html" class="property">
+    <img src="property.jpeg" alt="Property Image">
+    <div class="property-details">
+      <h2>Property Title 2</h2>
+      <p>Property Location 2</p>
+      <p>Price per night 2</p>
+    </div>
+  </a>
+  <a href="1.html" class="property">
+    <img src="property.jpeg" alt="Property Image">
+    <div class="property-details">
+      <h2>Property Title 3</h2>
+      <p>Property Location 3</p>
+      <p>Price per night 3</p>
+    </div>
+  </a>
+</div>
+
+
+    <div id="currency-selection" style="display:none">
+      <h3>Choose a currency</h3>
+      <ul>
+        <li id="GBP">Pound sterling - GBP &#8211; £</li>
+        <li>Australian dollar - AUD &#8211; $</li>
+        <li>Brazilian real - BRL &#8211; R$</li>
+        <li>Bulgarian lev - BGN &#8211; лв.</li>
+      </ul>
+    </div>
+    
+    <main>
+
+    </main>
+    <div id="icon-container" class="icon-container">
+      <div class="icon">
+        <img src="house.png" alt="Explore Icon">
+        <p>Explore</p>
+      </div>
+      <div class="icon">
+        <img src="house.png" alt="Wishlist Icon">
+        <p>Wishlist</p>
+      </div>
+      <div class="icon">
+        <img src="house.png" alt="Login Icon">
+        <p>Login</p>
+      </div>
+    </div>
+    
+    <footer class="footer">
+      <div class="links">
+        <a href="#">PrivacyTerms</a>
+        <a href="#">Sitemap</a>
+        <a href="#">UK</a>
+        <a href="#">Modern Slavery Act</a>
+        <a href="#">Company details</a>
+        <a href="#">Destinations</a>
+        <a href="#">© 2023 Airbnb, Inc.</a>
+      </div>
+      <div class="links-right">
+        <a href="#">Choose a language</a>
+        <a href="#" onclick="toggleCurrencySelection()">Choose a currency</a>
+        <a href="#">Support & resources</a>
+      </div>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </footer>
+ 
+    <script src="script.js"></script>
+      <script src="carousel.js"></script>
+      <script src="signup.js"></script>
+      <script src="toggles.js"></script>
+      <div id="overlay"></div>
+
+  </body>
+</html>
